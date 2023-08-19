@@ -1,0 +1,35 @@
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: lem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem, .container___titulo, .container__frase{
+padding:lem ;
+
+}
+
+.container_titulo, .container frase {
+     display: none;
+}
+
+@media screen and (min-width: 820px) { 
+    .container___titulo, .container_titulo-negrito{
+          font-size: 30px;
+}
+.conteiner__titulo{
+    display:block;
+    width:30vw
+}
+}
+       @media screan and (min-width:1024px) {
+        .container__frase{
+            display: block;
+            font-size: 20px;
+            padding-left: 5em;
+        }
+  }
